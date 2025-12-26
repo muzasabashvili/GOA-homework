@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+  <meta charset="UTF-8">
+  <title>ფორმა</title>
+</head>
+<body>
+<form>
+  <label for="name">სახელი:</label>
+  <input
+    type="text"id="name"name="name"placeholder="შეიყვანეთ სახელი" required>
+  <br><br>
+
+  <label for="text">გვარი:</label>
+  <input 
+    type="text" id="text" name="text" placeholder="შეიყვანეთ გვარი" required>
+ <br><br>
+
+
+  <label for="email">ემაილი:</label>
+  <input 
+  type="email" id="email"name="email"placeholder="example@mail.com" required>
+  <br><br>
+
+  <label for="password">პაროლი:</label>
+  <input
+    type="password"id="password"name="password"placeholder="შეიყვანეთ პაროლი"required>
+  <br><br>
+
+  <label for="birthdate">დაბადების თარიღი:</label>
+  <input
+    type="date"id="birthdate"name="birthdate"required>
+  <br><br>
+
+  <label>გენდერი:</label><br>
+  <input
+    type="radio" id="male"name="gender"value="male"required>
+  <label for="male">მამრობითი</label>
+
+  <input
+    type="radio"id="female"name="gender"value="female">
+  <label for="female">მდედრობითი</label>
+  <br><br>
+
+<label for="color">ფავორიტი ფერი:</label>
+  <input
+    type="color"id="color"name="favorite_color"required>
+  <br><br>
+
+  <input
+    type="checkbox"id="agree"name="policy"value="accepted"required>
+  <label for="agree">
+    ვეთანხმები საიტის გამოყენების პოლიტიკას და წესებს
+  </label>
+  <br><br>
+
+  <input type="submit" value="გაგზავნა">
+</form>
+
+</body>
+</html>
